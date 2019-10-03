@@ -1,25 +1,34 @@
-Meraki_Find_Network_ID
-A simple script for axx
-Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
-Prerequisites
-Python 3
-Netmiko
-Installing
-Populate the commands.txt file with the commands you would like the script to run on the network devices. Note: the first line needs to be 'exit' to exit out of configuration mode on Cisco routers.
-exit
-show ver
-show ip int brief
-Running the tests
-Run run.py
-Version 0.2
-Complete rework, added multithreading, streamlined, built in error handling, support for network ranges, etc.
-Version 0.1
-Initial Release
-Authors
-Mitch Bradford - Github
+# Meraki_Find_Network_ID
 
-License
+A simple script for listing all Meraki networks and their ID's that the user has access to.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+
+```
+Python 3
+Meraki Python Library
+```
+
+### Installing
+
+Install the Meraki Python Library.
+Add your API key and Organisation ID into the script.
+
+## Running the script
+
+Run find_network_id.py
+
+## Version 0.1
+Initial Release
+
+## Authors
+
+* **Mitch Bradford** - [Github](https://github.com/mitchbradford)
+
+## License
+
 This project is licensed under the MIT License.
-Acknowledgments
-Thanks to ktbyers for the netmiko library and threading examples
