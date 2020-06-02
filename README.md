@@ -31,4 +31,4 @@ Initial Release
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU GPLv3 License.
